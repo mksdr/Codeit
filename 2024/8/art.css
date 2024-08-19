@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #logo{
+    display: block;
+    width: 104px;
+  }
+  
+  .nav{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 24px 0 0;
+  }
+
+  .nav-menu{
+    color: #000000;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .header{
+    padding-bottom: 24px;
+    padding-top: 68px;
+    border-bottom: 1px solid #000000;
+  }
+
+  .header, .content{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .section{
+    margin: 40px 0 72px;
+  }
+
+  .title{
+    margin: 8px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #000000;
+  }
+  
+  .date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+    margin: 8px 0;
+  }
+  
+  .artworks{
+    margin: 24px -48px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .artwork{
+    height: 194px;
+    margin-right: 8px;
+  }
+  
+  a.button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000000;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+  }
+  
+  img.full{
+    width: 100%;
+    margin: 24px 0;
+  }
