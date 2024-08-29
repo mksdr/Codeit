@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 640px;
+  }
+  /* 위는 header와 content 모두 적용되는 container */
+  
+  .header {
+    background-color: #11172b;
+    color: #fff;
+    font-family: 'Titillium Web';
+    padding: 12px 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 37px;
+  }
+
+
+  #logo {
+    height: 24px;
+    margin-right: 13px;
+  }
+
+  .logo-accent {
+    font-weight: 600;
+  }
+
+
+  .content > .container {
+    padding: 40px 0;
+  }
+
+
+  /* 아래는 Trip Card 부분 */
+  .trip {
+    background-color: #ebeff8;
+    border-radius: 8px;
+    margin: 0;
+    padding: 24px 32px;
+  }
+
+  .trip-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #b3bdd5;
+  }
+
+  .trip-depart-icon {
+    height: 12px;
+    margin-right: 8px;
+  }
+
+  .trip-airports {
+    font-size: 32px;
+    font-family: 'Titillium Web';
+    color: #000;
+    font-style: normal;
+    margin: 8px 0 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .trip-date {
+    display: inline-block;
+    margin: 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .trip-detail {
+    font-size: 12px;
+    color: #b3bdd5;
+    font-weight: 400;
+    line-height: 17px;
+  }
+
+
+  hr {
+    border: none;
+    border-bottom: 1px dashed #b6bfd3;
+    margin: 20px 0;
+  }
+
+  /* 아래는 Flight-Card 부분 */
+  .flight-card {
+    background-color: #fff;
+    margin-bottom: 17px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(18, 23, 42, 0.03);
+  }
+
+  .flight-card h2 {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Titillium Web';
+    line-height: 18px;
+    color: #16bf97;
+    padding: 8px 24px;
+    margin: 0px;
+    border-bottom: 1px solid #dbf1ec;
+  }
+
+  .flight-card .content {
+    padding: 26px 24px 24px;
+    text-align: left;
+  }
+
+  .flight-card h3 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #b3bdd5;
+    margin: 0 0 4px;
+  }
+
+  .flight-card .flight-time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a345e;
+    line-height: 23px;
+    margin-bottom: 4px;
+  }
+
+  .flight-card .flight-icon {
+    height: 16px;
+    margin: 0 10px;
+  }
+
+  .flight-card .flight-lines {
+    font-size: 16px;
+    color: #0b1f66;
+    margin-bottom: 4px;
+  }
+
+  .flight-card .footer {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: right;
+  }
+
+  .flight-card .footer > a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #1a345e;
+  }
+
+  .flight-card .footer > a.soldout {
+    color: #dce0e8;
+  }
