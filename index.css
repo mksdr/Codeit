@@ -1,36 +1,36 @@
-body{
+body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.container{
+.container {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.container > h1{
+.container>h1 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 0px;
 }
 
-.container > h2{
+.container>h2 {
     font-size: 24px;
     font-weight: 300;
     margin-top: 0px;
 }
 
-.container > p{
+.container>p {
     font-size: 18px;
     margin-top: 10px;
 }
 
-#codeit-link{
+#codeit-link {
     color: #000;
     text-decoration: none;
 }
 
-#codeit-link:hover{
+#codeit-link:hover {
     color: #6500c3;
     text-decoration: underline;
 }
