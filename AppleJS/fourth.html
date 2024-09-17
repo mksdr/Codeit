@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fourth</title>
+  <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+  <div class="alert-box" id="alert-id">
+    <p>아이디를 입력해 주세요!</p>
+    <button style="margin-left: 10px;" onclick="alert('alert-id', 'none');">닫기</button>
+  </div>
+  <div class="alert-box" id="alert-password">
+    <p>비밀번호를 입력해 주세요!</p>
+    <button style="margin-left: 10px;" onclick="alert('alert-password', 'none');">닫기</button>
+  </div>
+  <button onclick="alert('alert-id', 'block');">아이디 버튼</button>
+  <button onclick="alert('alert-password', 'block');">비밀번호 버튼</button>
+  <script>
+    function alert(id, display) {
+      document.getElementById(id).style.display = display;
+    }
+  </script>
+</body>
+
+</html>

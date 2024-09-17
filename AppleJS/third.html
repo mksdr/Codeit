@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Third</title>
+  <link rel="stylesheet" href="second.css">
+</head>
+<body>
+  <div class="alert-box" id="alert">
+    <p>Alert 박스</p>
+    <button style="margin-left: 10px;" onclick="알림닫기();">닫기</button>
+  </div>
+  <button onclick="알림열기();">버튼</button>
+  <script>
+    function 알림열기() {
+      document.getElementById('alert').style.display = 'block';
+    }
+
+    function 알림닫기() {
+      document.getElementById('alert').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
